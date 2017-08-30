@@ -1,0 +1,21 @@
+{
+  "name": "p2",
+  "version": "1.0.0",
+  "description": "test subtree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sp": "git subtree pull --prefix=config/flame git@github.com:fuxiaochun/flame.git master",
+    "publish": "git subtree push --prefix=config/flame git@github.com:fuxiaochun/flame.git master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuxiaochun/p2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuxiaochun/p2/issues"
+  },
+  "homepage": "https://github.com/fuxiaochun/p2#readme"
+}
